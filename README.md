@@ -10,7 +10,7 @@ Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
   * [Config Gammu](#config-gammu)
   * [Config Telegram Bot](#config-telegram-bot)
   * [Config Receiver.py](#config-receiverpy)
-- [Create systemctl for gammu-smsd](#create-systemctl-for-gammu-smsd)
+  * [Create systemctl for gammu-smsd](#create-systemctl-for-gammu-smsd)
   * [Montoring](#montoring)
 
 
@@ -22,6 +22,12 @@ Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
 * gammu-smsd
 * Python 3.10.6 +
 * Telegram
+
+## Folders structure in repo
+`bot` contains `botpic` and info about bot settings.<br>
+`gammu` contains `gammu-smsdrc` config file and descriptions for config.<br>
+`script` contains `receiver.py` python script and description for it.<br>
+`service` contains systemctl service file - `gammu-modem-1.service' and description for it.<br>
 
 ## Installation
 
@@ -165,7 +171,7 @@ chat = "https://api.telegram.org/bot*YOUR_TOKEN*/sendMessage?chat_id=*YOUR_ID*&t
 
 If you use more modems, copy receiver.py with new name (for example: receiver2.py and so on) and change only phone number var.
 
-# Create systemctl for gammu-smsd
+## Create systemctl for gammu-smsd
 
 1. Create gammu-modem-1.service file in /etc/systemd/system/
 ```bash
