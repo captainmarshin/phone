@@ -245,3 +245,6 @@ systemctl restart gammu-modem-1.service
 ```bash
 tail -f /var/log/gammu/smsd.log
 ```
+
+## Screenshots
+![Bot screenshot](https://github.com/captainmarshin/phone/blob/main/SCREENSHOT.png?raw=true)
