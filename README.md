@@ -133,7 +133,7 @@ If you have more modems:
 
 ## Config Telegram Bot
 
-1. Go to @BotFather and run /newbot
+1. Go to [@BotFather](t.me/BotFather) and run /newbot
 2. Choose name for bot (for example: Phone)
 3. Choose username for bot (anyname with bot at the end)
 4. Copy Bot Token.
@@ -144,7 +144,7 @@ You can add picture, description and etc. Examples in bot folder.
 
 6. Open browser and run this API request:
 
-Replace *YOUR_TOKEN* with Bot Token from @BotFather
+Replace *YOUR_TOKEN* with Bot Token from [@BotFather](t.me/BotFather)
 
 ```bash
 https://api.telegram.org/bot*YOUR_TOKEN*/getUpdates
@@ -166,7 +166,7 @@ If you use text name - remove %2B from chat url. (%2B it's a + (plus) in Percent
 chat = "https://api.telegram.org/bot*YOUR_TOKEN*/sendMessage?chat_id=*YOUR_ID*&text=<b>☎️: %2B{0}</b>%0A{1} <b>({2})</b>&parse_mode=HTML".format(phone, text, sender)
 ```
 
-*YOUR_TOKEN* - replace this with your Bot Token from @BotFather
+*YOUR_TOKEN* - replace this with your Bot Token from [@BotFather](t.me/BotFather)
 *YOUR_ID* - replace this with your Telegram ID
 
 If you use more modems, copy receiver.py with new name (for example: receiver2.py and so on) and change only phone number var.
@@ -229,7 +229,7 @@ Output:
 Dec 24 10:29:26 user systemd[1]: Started Modem 1 Receiver (Gammu).
 ```
 
-## Montoring
+## Monitoring
 
 1. Check services running
 ```bash
