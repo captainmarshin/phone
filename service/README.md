@@ -2,6 +2,8 @@
 
 This is config for `systemctl` service. If you have more modems, create .service for each gammu-smsd config file.
 
+Systemctl services files stores in `/etc/systemd/system`
+
 Change `User` to you system username. If you hame more modems, don't forget to change `-c /etc/gammu-smsdrc` in `ExecStart` to your second gammu config.
 
 ## Configuration
