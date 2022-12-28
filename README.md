@@ -25,7 +25,7 @@ Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
 
 ## Installation
 
-1. Insert SIM in modem, check that modem is connected and availabe in system
+1. Insert SIM in modem, insert modem to PC, check that modem is connected and availabe in system
 ```bash
 lsusb
 ```
