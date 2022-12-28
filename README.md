@@ -24,10 +24,10 @@ Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
 * Telegram
 
 ## Folders structure in repo
-`bot` contains `botpic` and info about bot settings.<br>
-`gammu` contains `gammu-smsdrc` config file and descriptions for config.<br>
-`script` contains `receiver.py` python script and description for it.<br>
-`service` contains systemctl service file - `gammu-modem-1.service' and description for it.<br>
+`bot` folder contains `botpic` and info about bot settings.<br>
+`gammu` folder contains `gammu-smsdrc` config file and descriptions for config.<br>
+`script` folder contains `receiver.py` python script and description for it.<br>
+`service` folder contains systemctl service file - `gammu-modem-1.service` and description for it.<br>
 
 ## Installation
 
