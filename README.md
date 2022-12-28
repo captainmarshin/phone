@@ -31,12 +31,12 @@ lsusb
 ```
 Huawei Huawei Technologies Co., Ltd output means, that modem is connected to PC.
 
-2. Switch modem mode with usbmodeswitch
+2. Switch modem mode with `usbmodeswitch`
 
 ```bash
 sudo usb_modeswitch -v 12d1 -p 14fe -M '55534243123456780000000000000011062000000100000000000000000000'
 ```
-12d1 and 14fe - it's a ID of modem from lsusb. It can be different.
+`12d1` and `14fe` - it's a ID of modem from `lsusb`. It can be different.
 
 More info and guide:
 https://askubuntu.com/a/1146339
@@ -51,7 +51,7 @@ https://github.com/playsms/book-playsms/blob/master/book-contents/en/Installatio
 sudo su -
 ```
 
-- Install Gammu via apt-get
+- Install Gammu via `apt-get`
 ```bash
 apt-get install gammu gammu-smsd
 ```
@@ -72,6 +72,12 @@ You can also set files and folders permission to world-writable
 ```bash
 chmod 777 -R /var/spool/gammu/*
 ```
+
+- Add you username to `dialout` group
+```bash
+adduser USER dialout
+```
+Where `USER` is your system username.
 
 ## Config Gammu
 
