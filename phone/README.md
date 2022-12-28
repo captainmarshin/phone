@@ -3,6 +3,10 @@
 This is script, that will be launch in RunOnReceive gammu-smsd option. You can modify script how you want.
 If you use more modems, don't forget to copy this script, rename it and set in second Gammu config.
 
+Put this file in `/home/username/phone/`.
+`username` - it's your system username<br>
+`phone`- it's a folder. You can make any folder you want, don't forget to change way to it in `gammu-smsdrc` config.
+
 ## Change `phone` number
 ```python
 phone = "70000000000"
