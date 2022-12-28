@@ -20,5 +20,4 @@ DeliveryReportDelay = 7200
 CheckSecurity = 0
 PhoneID = first
 RunOnReceive =/usr/bin/python3 /home/user/phone/reciever.py
-Receive = True
 
