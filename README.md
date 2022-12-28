@@ -1,7 +1,7 @@
+![Phone logo](https://github.com/captainmarshin/phone/blob/main/PREVIEW.png?raw=true)
+
 # Phone
 Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
-
-![Phone logo](https://github.com/captainmarshin/phone/blob/main/PREVIEW.png?raw=true)
 
 ## Table of Contents:
 - [Phone](#phone)
