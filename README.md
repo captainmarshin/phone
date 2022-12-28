@@ -1,7 +1,8 @@
-# SMS Receiver
+# Phone
 Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
 
-# Requariements
+
+## Requariements
 * Ubuntu 22.04
 * Huawei E3131 GSM Modem (+ patch to unlock SIM)
 * usbmodeswitch
@@ -10,7 +11,7 @@ Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
 * Python 3.10.6 +
 * Telegram
 
-# Installation
+## Installation
 
 1. Insert SIM in modem, check that modem is connected and availabe in system
 ```bash
@@ -60,7 +61,7 @@ You can also set files and folders permission to world-writable
 chmod 777 -R /var/spool/gammu/*
 ```
 
-# Config Gammu
+## Config Gammu
 
 You need to create config for each connected modem.
 
@@ -106,7 +107,7 @@ If you have more modems:
 * Change PhoneID - you can name it like you want. For more user friendly I use first for first modem, second for second and so on.
 * Change RunOnReceive - copy receiver.py script with new name (for ex.: receiver2.py) and change phone var and so on.
 
-# Config Telegram Bot
+## Config Telegram Bot
 
 1. Go to @BotFather and run /newbot
 2. Choose name for bot (for example: Phone)
@@ -128,7 +129,7 @@ https://api.telegram.org/bot*YOUR_TOKEN*/getUpdates
 7. From URL output get chat_id number.
 This is your Telegram ID.
 
-# Config Receiver.py
+## Config Receiver.py
 
 1. Replace phone var with your modem phone number.
 This variable contains your modem phone number and uses for show you, from which modem you receive SMS. You can change it to any text you want.
@@ -204,7 +205,7 @@ Output:
 Dec 24 10:29:26 user systemd[1]: Started Modem 1 Receiver (Gammu).
 ```
 
-# Montoring
+## Montoring
 
 1. Check services running
 ```bash
