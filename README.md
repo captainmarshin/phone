@@ -1,2 +1,2 @@
 # smsreceiver
-Receive SMS from GSM modems in Telegram.
+Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
