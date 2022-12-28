@@ -1,6 +1,8 @@
-# Gammu SMSD config file
+# gammu-smsd config file
 
 This is `gammu-smsd` config for Huawei E3131 GSM modem.
+
+Gammu config stores in `/etc/`
 
 ```sh
 [gammu]                                 # This is modem configuration
