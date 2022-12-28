@@ -1,6 +1,18 @@
 # Phone
 Receive SMS from Huawei E3131 GSM modem via Gammu to Telegram bot.
 
+![Phone logo](https://github.com/captainmarshin/phone/blob/main/PREVIEW.png?raw=true)
+
+## Table of Contents:
+- [Phone](#phone)
+  * [Requariements](#requariements)
+  * [Installation](#installation)
+  * [Config Gammu](#config-gammu)
+  * [Config Telegram Bot](#config-telegram-bot)
+  * [Config Receiver.py](#config-receiverpy)
+- [Create systemctl for gammu-smsd](#create-systemctl-for-gammu-smsd)
+  * [Montoring](#montoring)
+
 
 ## Requariements
 * Ubuntu 22.04
