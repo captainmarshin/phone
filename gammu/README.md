@@ -1,0 +1,2 @@
+# Gammu SMSD config file
+
